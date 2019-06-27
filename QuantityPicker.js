@@ -35,7 +35,7 @@ export default class QuantityPicker extends Component {
     return (
       <span className="quantity-picker">
         <button className={`${disable ? 'mod-disable ' : ''}quantity-modifier modifier-left`} onClick={this.decrement}>&ndash;</button>
-        <input className="quantity-input__screen" type="text" value={this.state.value} readOnly />
+        <input className="quantity-display" type="text" value={this.state.value} readOnly />
         <button className="quantity-modifier modifier-right" onClick={this.increment}>&#xff0b;</button>
       </span>
     );
