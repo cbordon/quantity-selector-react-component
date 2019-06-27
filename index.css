@@ -9,7 +9,7 @@
 }
 
 .quantity-modifier,
-.quantity-input__screen {
+.quantity-display {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -53,7 +53,7 @@
   border-radius: 0 3px 3px 0;
 }
 
-.quantity-input__screen {
+.quantity-display {
   width: 4rem;
   padding: .5rem;
   font-size: 1.5rem;
