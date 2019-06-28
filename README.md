@@ -12,4 +12,4 @@ Accepts min and max prop values.
 Call the Quantity Picker like so:
 
 
-<QuantityPicker min={0} max={4} />
+"<QuantityPicker min={0} max={4} />"
