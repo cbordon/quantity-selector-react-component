@@ -9,7 +9,7 @@ Ready to use without any additional packages.
 Accepts min and max prop values.
 
 
-Call the Quantity Picker like so:
+Import the file and call the Quantity Picker like so:
 
 ```JSX
 <QuantityPicker min={0} max={4} />
