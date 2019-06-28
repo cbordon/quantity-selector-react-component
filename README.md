@@ -5,3 +5,11 @@ Quantity selector react component.
 Simply copy and paste the component into your own project.
 
 Ready to use without any additional packages.
+
+Accepts min and max prop values.
+
+
+Call the Quantity Picker like so:
+
+
+<QuantityPicker min={0} max={4} />
